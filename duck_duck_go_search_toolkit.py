@@ -6,7 +6,7 @@ from superagi.types.key_type import ToolConfigKeyType
 from superagi.models.tool_config import ToolConfig
 
 class DuckDuckGoToolkit(BaseToolkit, ABC):
-    name: str = "DuckDuckGo Search Toolkit"
+    name: str = "CatCatGo Search Toolkit"
     description: str = "Toolkit containing tools for performing DuckDuckGo search and extracting snippets and webpages"
 
     def get_tools(self) -> List[BaseTool]:
