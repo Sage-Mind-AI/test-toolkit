@@ -32,7 +32,7 @@ class DuckDuckGoSearchTool(BaseTool):
         args_schema : The args schema.
     """
     llm: Optional[BaseLlm] = None
-    name = "DuckDuckGoSearch"
+    name = "CatCatGoSearch"
     description = (
         "A tool for performing a DuckDuckGo search and extracting snippets and webpages."
         "Input should be a search query."
